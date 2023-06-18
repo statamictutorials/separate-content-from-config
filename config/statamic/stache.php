@@ -29,7 +29,7 @@ return [
     'stores' => [
         
         'taxonomies' => [ // config
-            'directory' => base_path('content/taxonomies'),
+            'directory' => config_path('statamic_content/taxonomies'),
         ],
 
         'terms' => [ // content
@@ -37,7 +37,7 @@ return [
         ],
 
         'collections' => [ // config
-            'directory' => base_path('content/collections'),
+            'directory' => config_path('statamic_content/collections'),
         ],
 
         'entries' => [ // content
@@ -45,7 +45,7 @@ return [
         ],
 
         'navigation' => [ // config
-            'directory' => base_path('content/navigation'),
+            'directory' => config_path('statamic_content/navigation'),
         ],
 
         'collection-trees' => [ // content
@@ -61,7 +61,7 @@ return [
         ],
 
         'asset-containers' => [ // config
-            'directory' => base_path('content/assets'),
+            'directory' => config_path('statamic_content/assets'),
         ],
 
         'users' => [ // content, but maybe special
