@@ -27,7 +27,47 @@ return [
     */
 
     'stores' => [
-        //
+        
+        'taxonomies' => [ // config
+            'directory' => base_path('content/taxonomies'),
+        ],
+
+        'terms' => [ // content
+            'directory' => base_path('content/taxonomies'),
+        ],
+
+        'collections' => [ // config
+            'directory' => base_path('content/collections'),
+        ],
+
+        'entries' => [ // content
+            'directory' => base_path('content/collections'),
+        ],
+
+        'navigation' => [ // config
+            'directory' => base_path('content/navigation'),
+        ],
+
+        'collection-trees' => [ // content
+            'directory' => base_path('content/trees/collections'),
+        ],
+
+        'nav-trees' => [ // content
+            'directory' => base_path('content/trees/navigation'),
+        ],
+
+        'globals' => [ // config & content
+            'directory' => base_path('content/globals'),
+        ],
+
+        'asset-containers' => [ // config
+            'directory' => base_path('content/assets'),
+        ],
+
+        'users' => [ // content, but maybe special
+            'directory' => base_path('users'),
+        ],
+
     ],
 
     /*
