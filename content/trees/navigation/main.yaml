@@ -1,0 +1,8 @@
+tree:
+  -
+    id: 245daa0d-5d0b-4175-8f1f-1f85e27fdcde
+    entry: home
+  -
+    id: 9b122699-095e-4647-be1d-6d347a96a4b4
+    title: 'External Shop'
+    url: 'https://external-shop.com'
