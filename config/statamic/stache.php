@@ -41,7 +41,10 @@ return [
         ],
 
         'entries' => [ // content
-            'directory' => base_path('content/collections'),
+            'directory' => use_local_content() ?
+                base_path('content_dev/collections') :
+                base_path('content/collections'),
+                
         ],
 
         'navigation' => [ // config
@@ -61,7 +64,7 @@ return [
         ],
 
         'asset-containers' => [ // config
-            'directory' => config_path('statamic_content/assets'),
+            'directory' => config_path('content/assets'),
         ],
 
         'users' => [ // content, but maybe special
